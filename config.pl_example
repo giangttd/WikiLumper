@@ -4,7 +4,7 @@
 our %confluence = (
 	url => 'https://mycompany.atlassian.net/wiki',
 	login => 'MYLOGIN',
-	password => 'MYPASS',
+	password => 'MYPASS', #Not your password but API token from https://id.atlassian.com/manage/api-tokens 
 	space => 'MYSPACE',
 	rootPage => 'XWiki'
 );
